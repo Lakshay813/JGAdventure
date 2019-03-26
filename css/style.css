@@ -179,6 +179,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
+      background: rgba(255,255,255,0.4);
+    padding: 30px;
+    border-radius: 18px 0px;
 }
 
 @media (max-width: 768px) {
@@ -752,7 +755,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio .portfolio-item {
   position: relative;
-  height: 200px;
+  height: 281px;
   overflow: hidden !important;
   margin-bottom: 15px;
   transition: all 350ms ease;
@@ -818,7 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 500px;
 }
 
 #team .member .pic img {
@@ -921,13 +924,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #errormessage {
-color: #2dc997;
-border: 1px solid #2dc997;
-text-align: center;
-padding: 15px;
-font-weight: 600;
-margin-bottom: 15px;
+  color: red;
   display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
@@ -948,7 +951,7 @@ margin-bottom: 15px;
   font-size: 14px;
 }
 
-#contact .form button[type="submit"] {
+#contact .form button[type=submit] {
   background: #2dc997;
   border: 0;
   padding: 10px 24px;
@@ -956,7 +959,7 @@ margin-bottom: 15px;
   transition: 0.4s;
 }
 
-#contact .form button[type="submit"]:hover {
+#contact .form button[type=submit]:hover {
   background: #51d8ad;
 }
 
