@@ -927,6 +927,7 @@ text-align: center;
 padding: 15px;
 font-weight: 600;
 margin-bottom: 15px;
+  display: none;
 }
 
 #contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
